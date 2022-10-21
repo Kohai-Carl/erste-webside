@@ -1,0 +1,142 @@
+@media screen and (min-width: 767px) {
+    .content {
+        width: 66.67%;
+    }
+    main{
+        padding-left: 164px;
+    }
+    
+    /* @media  screen and (max-width: 1500px){
+        .kasten{
+            width: 100px;
+            height: 100px;
+            background-color: #015999;
+            position: absolute;
+            top: 76px;
+            left: 300px;
+        }
+        
+    } */
+}
+
+.test{
+    position: relative;
+}
+.kasten{
+        width: 100px;
+        height: 100px;
+        background-color: #015999;
+        position: absolute;
+        bottom: 0px;
+        right: 0%;
+    }
+*{
+    box-sizing: border-box;
+}
+.test2.teaserbild{
+    opacity: 0;
+}
+
+h1 {
+        color: #015999;
+        text-align: left;
+        vertical-align: left;
+        font-size: fit-content;
+}
+h2{
+    color: #015999;
+    text-align: center left;
+    vertical-align: left;
+    padding-top: 30px;
+}
+.teaserbild {
+    text-align: left;
+    width: 100%;
+    padding: 0 auto;
+    margin-top: auto;
+    display: block;
+    opacity: 1;
+    transition: all 1s;
+
+}
+
+div.strong{
+    padding-top: 50px;
+    padding-bottom: 0 auto;
+}
+html{
+    margin: 0px auto;
+}
+
+
+main{
+    float: left;
+    width: 80%;
+}
+
+.testbox{
+    background-color: yellow;   
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+    font-family: helvetica;
+    max-width: 1000px;
+}
+
+ 
+.textfeld{
+    width: 100%;
+}
+input[type="text" ] {
+width: calc(90% - 75px);
+
+}
+input[type="submit" ]{
+    width: 75px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: #015999; 
+    text-align: center;
+}
+
+p{
+    color: 33322f;
+    margin-top: 0 auto;
+    margin-bottom: 20px‚;
+}
+
+form{
+    color: 33322f;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #33322f;
+    margin: 0 auto;
+}
+img{
+    max-width: fit-content;
+    width: 100%;
+}
+strong{
+
+    font-size: large;
+}
+/* i{
+    max-inline-size: none;
+    max-block-size: none;
+    position: relative; top:auto;
+} */
+div.quelle{
+    
+    background-color: rgb(218, 216, 216);
+    padding: 10px;
+    clear: both;
+}
+
+aside{
+    width: 20%;
+    float: right;
+}

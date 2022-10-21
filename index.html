@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+            <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css"/>
+        
+        <title>Meine erste Webside</title>
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+      
+<body>
+    <main>
+        <div class="test">
+            <img class="teaserbild" src=" https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1 &ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&w=1024&q=80">
+            <div class="kasten">
+            </div>
+        </div>
+            <div class="strong"> 
+                <strong>GWE Studie</strong> 
+            </div>
+       
+        <div class="content">
+        
+            
+
+            <h1>Kluft bei Digitalisierung an Schulen</h1>
+  
+            <strong>    
+                Deutsche Schulen sind beim Thema Digitalisierung weiterhin nicht gut aufgestellt. Das geht aus einer neuen Studie hervor. 
+                Große Sorgen bereitet den Forsc "Vorreiter"- und "Nachzügler"-Schulen.
+            </strong>
+            <p>
+                Die Corona-Pandemie hat die Digitalisierung in den Schulen zwar beschleunigt, doch es gibt weiterhin deutliche Lücken bei der technischen 
+                Ausstattung. Wie aus einer r Universität Göttingen hervorgeht, stellt beispielsweise jede zweite Schule kein WLAN für Schüler bereit.
+            </p>   
+
+            <h2>Geringe Medienkompetenz</h2>
+
+            <p>
+                Zudem habe sich eine deutliche Kluft zwischen einzelnen Schulen etwa in Sachen digitaler Kompetenz gebildet, erklärte die Gewerkschaft 
+                Erziehung und Wissenschaft ( Umfrage präsentierte. Demnach sind etwa ein Drittel der Schulen sogenannte "Nachzügler" in Sachen Digitalisierung, 
+                zwölf Prozent sind "Vorreiter". "Die Unterschiede si Studienleiter Frank Mußmann von der Universität Göttingen.
+            </p>
+
+            <p>
+                Das wirkt sich offenbar auch auf die grundlegende Medienkompetenz aus: So sei beispielsweise nur ein Drittel der Jugendlichen an 
+                Nachzügler-Schulen in der Lage zu sie im Internet finden, vertrauenswürdig sind. "Es ist nicht gut für eine Demokratie, wenn nur 34 Prozent 
+                der Schüler in Nachzügler-Schulen lernen, wie sie prüfen könne Internet verlassen können", sagte Mußmann. An den Vorreiter-Schulen seien es dagegen 62 Prozent
+            </p>
+         
+            <img src="https://images.unsplash.com/photo-1604933834215-2a64950311bd?ixlib=rb-1.2.1 &ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=432&q=80">
+        
+            </img>
+          
+            <div class="strong">
+            <i>Ein Bild von Ipads</i>
+            </div>
+
+            <h2>Höhere Arbeitsbelastung für Lehrer</h2>
+
+            <p>        
+            Auch die Arbeitsbelastung der Lehrer sei noch einmal gewachsen. "Das Lernen mit digitalen Medien und Tools wird an deutschen Schulen extrem ungleich umgesetzt", 
+            seien die digitale Infrastruktur oder die Weiterbildungsmöglichkeiten für Lehrkräfte deutlich schlechter. Nur 57 Prozent der Lehrkräfte arbeiteten an Schulen, 
+            an denen es digitale Geräte gebe.
+            </p>
+
+            <p>
+                Diese digitale Kluft gefährde die Kompetenzentwicklung und die gleichberechtigte Teilhabe. Für die Studie waren Anfang 2021 bundesweit mehr als 2700 Lehrerinnen u II befragt worden.
+            </p>
+        </div>
+    </main><aside>
+
+         <div class="testbox">
+        <paragraph> das ist eine Testbox</paragraph>
+    </div>
+    
+    <div class="textfeld">
+        <form id="formular" method="post">
+            <input type="text" name="vorname" value="">
+            <input type="Submit" name="absenden" value="absenden">
+        </form>
+    </div>
+    <div class="eingabe">
+        <p>
+
+        </p>
+    </div>
+    
+    </aside>
+     
+    
+    <div class="quelle">
+ 
+        <a href="https://www.tagesschau.de/inland/schulen-digitalisierung-studie-101.html">
+            Hier Klicken zum Lesen des Atikels (in deutsch sogar )
+        </a>
+
+    </div>
+       
+<script> 
+document.querySelector(".kasten").addEventListener("click", function(){
+    document.querySelector(".teaserbild").classList.toggle("test2")
+})
+
+document.querySelector("#formular").addEventListener("submit", function(e){
+    e.preventDefault()
+    document.querySelector(".eingabe p").innerText=document.querySelector("input[type='text']").value
+})
+
+</script>
+
+</body>
+
+</html>
